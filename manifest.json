@@ -1,0 +1,26 @@
+{
+  "release": "4.2.2",
+  "appJs": "4.2.1",
+  "css": "4.2.0",
+  "registry": "3.0.0",
+  "selfTest": "1.0.1",
+  "changes": [
+    "Blogger data-tool-version aligned",
+    "TOOL_INFO.version aligned",
+    "VTrick tocify auto-TOC suppression strengthened"
+  ],
+  "staticChecks": {
+    "data-tool-version 4.2.2": true,
+    "TOOL_INFO.version 4.2.2": true,
+    "tocify-wrap block": true,
+    "tocify-inner block": true,
+    "tocify-title block": true,
+    "app JS unchanged 4.2.1": true,
+    "CSS unchanged 4.2.0": true,
+    "bottom boundary": true,
+    "representative image": true,
+    "AdSense client": true,
+    "AdSense slot": true
+  },
+  "selfTestNodeSyntax": true
+}

@@ -1,0 +1,70 @@
+HealingMart Calculator v4.2.2 Blogger Integration Fix
+
+기존 Self-Test v1.0.0 결과
+- PASS 222
+- FAIL 5
+- WARN 0
+- INFO 3
+
+실패 5개는 모두 Blogger 통합 메타/CSS 항목:
+1. data-tool-version expected 4.2.1 / actual 4.1.0
+2. TOOL_INFO.version expected 4.2.1 / actual 4.0.0
+3. tocify-wrap 차단 CSS 누락
+4. tocify-inner 차단 CSS 누락
+5. tocify-title 차단 CSS 누락
+
+중요
+- 180개 계산기 register: PASS
+- 공식 QA 280개: PASS
+- Registry 12개 카테고리 / 180개 계산기: PASS
+- GitHub 핵심 파일 SHA-256: PASS
+- 자동목차 실제 화면 노출: 당시 PASS(TOC 요소 없음)
+
+v4.2.2 수정
+- Blogger data-tool-version -> 4.2.2
+- TOOL_INFO.version -> 4.2.2
+- tocify-wrap / tocify-inner / tocify-title 및 tocify-* 전체 차단 보강
+- 기존 검증된 App JS v4.2.1 그대로 유지
+- 기존 검증된 CSS v4.2.0 그대로 유지
+
+정적 검사
+- data-tool-version 4.2.2: PASS
+- TOOL_INFO.version 4.2.2: PASS
+- tocify-wrap block: PASS
+- tocify-inner block: PASS
+- tocify-title block: PASS
+- app JS unchanged 4.2.1: PASS
+- CSS unchanged 4.2.0: PASS
+- bottom boundary: PASS
+- representative image: PASS
+- AdSense client: PASS
+- AdSense slot: PASS
+
+Self-Test JS Node syntax: PASS
+
+적용 순서
+1. Blogger를 HealingMart_계산기_Blogger_통합검증수정_v4.2.2.html로 전체 교체
+2. test/hm-calculator-self-test.v1.0.1.js를 GitHub에 업로드
+3. 계산기 페이지에서 아래 코드를 Console 실행
+
+(() => {
+  document.getElementById("hm-calculator-self-test-host")?.remove();
+
+  try {
+    delete window.HMCalculatorSelfTest;
+  } catch (e) {
+    window.HMCalculatorSelfTest = undefined;
+  }
+
+  [...document.scripts]
+    .filter(s => s.src && s.src.includes("hm-calculator-self-test"))
+    .forEach(s => s.remove());
+
+  const s = document.createElement("script");
+  s.src =
+    "https://healingmart.github.io/healingmart-calculator/test/" +
+    "hm-calculator-self-test.v1.0.1.js?v=" +
+    Date.now();
+
+  document.head.appendChild(s);
+})();
