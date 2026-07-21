@@ -1,0 +1,12 @@
+{
+  "selfTestVersion": "1.0.0",
+  "targetAppVersion": "4.2.1",
+  "targetCssVersion": "4.2.0",
+  "targetRegistryVersion": "3.0.0",
+  "expectedCategories": 12,
+  "expectedCalculators": 180,
+  "expectedModules": 80,
+  "expectedQaCases": 280,
+  "nodeSyntaxCheck": true,
+  "sha256": "3c64564a1f142764e5812d12ae63c9d5c022863c070251738d0b4556d7ec494f"
+}
