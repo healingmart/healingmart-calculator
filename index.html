@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HealingMart Calculator Runtime</title>
+  <style>
+    body{font-family:Arial,"Noto Sans KR",sans-serif;margin:0;background:#f6f8fb;color:#111827}
+    main{max-width:820px;margin:60px auto;padding:24px}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:24px;box-shadow:0 10px 30px rgba(15,23,42,.07)}
+    h1{margin:0 0 8px;font-size:28px}
+    p{color:#64748b}
+    .row{padding:12px 0;border-top:1px solid #eef2f7}
+    .ok{color:#08775b;font-weight:800}.bad{color:#b42318;font-weight:800}
+    code{word-break:break-all}
+  </style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>HealingMart Calculator Runtime</h1>
+    <p>GitHub Pages 배포 상태 점검 페이지입니다.</p>
+    <div id="checks"></div>
+  </div>
+</main>
+<script>
+const files=[
+  'dist/js/hm-calc-app.v4.min.js',
+  'dist/css/hm-calc.v4.css',
+  'dist/data/hm-calc-registry.v1.js',
+  'dist/js/hm-calc-core.v1.min.js',
+  'dist/js/hm-calc-sound.v1.min.js',
+  'dist/js/hm-calc-share.v1.min.js',
+  'dist/calculators/percent.min.js'
+];
+(async()=>{
+  const box=document.getElementById('checks');
+  for(const f of files){
+    const row=document.createElement('div');
+    row.className='row';
+    try{
+      const r=await fetch(f,{cache:'no-store'});
+      row.innerHTML='<span class="'+(r.ok?'ok':'bad')+'">'+(r.ok?'정상':'오류')+'</span> · <code>'+f+'</code> · HTTP '+r.status;
+    }catch(e){
+      row.innerHTML='<span class="bad">오류</span> · <code>'+f+'</code> · '+e.message;
+    }
+    box.appendChild(row);
+  }
+})();
+</script>
+</body>
+</html>
