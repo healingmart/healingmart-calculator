@@ -1,26 +1,26 @@
 {
-  "release": "4.2.2",
-  "appJs": "4.2.1",
+  "release": "4.3.0",
+  "appJs": "4.3.0",
   "css": "4.2.0",
-  "registry": "3.0.0",
-  "selfTest": "1.0.1",
+  "registry": "3.1.0",
+  "selfTest": "1.1.0",
+  "categories": 12,
+  "calculators": 210,
+  "modules": 85,
+  "qaCases": 370,
   "changes": [
-    "Blogger data-tool-version aligned",
-    "TOOL_INFO.version aligned",
-    "VTrick tocify auto-TOC suppression strengthened"
+    "30 browser-only calculators added",
+    "Featured calculator ordering added",
+    "Registry/module cache version bumped",
+    "Self-Test expanded to 370 formula QA cases"
   ],
   "staticChecks": {
-    "data-tool-version 4.2.2": true,
-    "TOOL_INFO.version 4.2.2": true,
-    "tocify-wrap block": true,
-    "tocify-inner block": true,
-    "tocify-title block": true,
-    "app JS unchanged 4.2.1": true,
-    "CSS unchanged 4.2.0": true,
-    "bottom boundary": true,
-    "representative image": true,
-    "AdSense client": true,
-    "AdSense slot": true
+    "newCalculators": true,
+    "totalCalculators": true,
+    "newModules": true,
+    "appVersion": true,
+    "registryVersion": true,
+    "bloggerVersion": true
   },
   "selfTestNodeSyntax": true
 }

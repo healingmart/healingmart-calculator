@@ -1,0 +1,35 @@
+HealingMart Calculator v4.3.0 · 210 Calculator Expansion
+
+구성
+- 카테고리: 12개
+- 계산기: 210개
+- 활성 모듈: 85개
+- 공식 QA: 370건
+- 신규 계산기: 30개
+
+버전
+- Blogger Shell: 4.3.0
+- App JS: 4.3.0
+- CSS: 4.2.0
+- Registry: 3.1.0
+- Self-Test: 1.1.0
+
+신규 모듈
+- finance-growth-pack-v4.min.js
+- business-metrics-pack-v4.min.js
+- household-pack-v4.min.js
+- auto-cost-pack-v4.min.js
+- rental-pack-v4.min.js
+
+업로드 순서
+1. dist/calculators의 신규 5개 pack 파일 업로드
+2. dist/data/hm-calc-registry.v1.js와 hm-calculators.v1.js 교체
+3. dist/js/hm-calc-app.v4.3.0.min.js 업로드
+4. test/hm-calculator-self-test.v1.1.0.js 업로드
+5. Blogger 본문을 HealingMart_계산기_Blogger_210개확장_v4.3.0.html로 교체
+6. GitHub Pages 반영 후 Self-Test 실행
+
+중요
+- 기존 CSS v4.2.0과 core/sound/share JS는 변경하지 않았습니다.
+- 외부 API나 비밀키를 사용하지 않습니다.
+- 전기요금·수수료·이자 등은 사용자가 입력한 값을 기준으로 계산합니다.
