@@ -1,0 +1,38 @@
+HealingMart Calculator v4.7.0 · 330 Calculator Expansion
+
+구성
+- 카테고리: 12개
+- 계산기: 330개
+- 활성 모듈: 105개
+- 공식 QA: 730건
+- 신규 계산기: 30개
+
+버전
+- Blogger Shell: 4.7.0
+- App JS: 4.7.0
+- CSS: 4.2.0
+- Registry: 3.5.0
+- Self-Test: 1.5.0
+
+신규 모듈
+- home-garden-pack-v8.min.js
+- business-operations-pack-v8.min.js
+- statistics-analysis-pack-v8.min.js
+- advanced-geometry-pack-v8.min.js
+- engineering-mechanics-pack-v8.min.js
+
+로컬 검증
+- 활성 JS 문법검사: 111개 PASS
+- 계산기 등록: 330개 PASS
+- 공식 계산식 QA: 730건 PASS / FAIL 0
+
+업로드 순서
+1. 업데이트 ZIP의 파일을 GitHub 저장소 루트에 업로드
+2. 기존 파일은 교체하고 신규 pack 파일은 추가
+3. Blogger 본문을 HealingMart_계산기_Blogger_330개확장_v4.7.0.html로 전체 교체
+4. GitHub Pages 반영 후 Self-Test v1.5.0 실행
+
+중요
+- 기존 CSS v4.2.0과 core/sound/share JS는 변경하지 않았습니다.
+- 외부 API나 비밀키를 사용하지 않습니다.
+- 원예·사업·과학 계산은 입력값 기반의 일반 추정이며 현장 조건을 별도로 확인해야 합니다.
