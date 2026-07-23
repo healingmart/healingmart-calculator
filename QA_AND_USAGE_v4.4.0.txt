@@ -1,0 +1,38 @@
+HealingMart Calculator v4.4.0 · 240 Calculator Expansion
+
+구성
+- 카테고리: 12개
+- 계산기: 240개
+- 활성 모듈: 90개
+- 공식 QA: 460건
+- 신규 계산기: 30개
+
+버전
+- Blogger Shell: 4.4.0
+- App JS: 4.4.0
+- CSS: 4.2.0
+- Registry: 3.2.0
+- Self-Test: 1.2.0
+
+신규 모듈
+- business-retention-pack-v5.min.js
+- home-project-pack-v5.min.js
+- health-fitness-pack-v5.min.js
+- digital-productivity-pack-v5.min.js
+- property-auto-pack-v5.min.js
+
+로컬 검증
+- 활성 JS 문법검사: 96개 PASS
+- 계산기 등록: 240개 PASS
+- 공식 계산식 QA: 460건 PASS / FAIL 0
+
+업로드 순서
+1. 업데이트 ZIP의 파일을 GitHub 저장소 루트에 업로드
+2. 기존 파일은 교체하고 신규 pack 파일은 추가
+3. Blogger 본문을 HealingMart_계산기_Blogger_240개확장_v4.4.0.html로 전체 교체
+4. GitHub Pages 반영 후 Self-Test v1.2.0 실행
+
+중요
+- 기존 CSS v4.2.0과 core/sound/share JS는 변경하지 않았습니다.
+- 외부 API나 비밀키를 사용하지 않습니다.
+- 건강·부동산·차량 결과는 일반적인 추정치이며 전문 판단을 대신하지 않습니다.

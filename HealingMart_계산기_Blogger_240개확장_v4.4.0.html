@@ -1,0 +1,393 @@
+<div style="display:none;">
+  <img
+    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAxrIIEpZr7KjKePefYjjSLIz3xAJxVBCNBMvL1Qp39RnSbp_tUsWyaKMmLk2n6FBoM6JXc4fFN_VEfS6ZL2JZ9wRF4qHB3uYz26hneQGJI8vbVQVlki4YdqfTGf_CmZL-iHZECJqlFhTsF0PTxh7GY58ter0UQ1NwMQPMacZWxcDkko-lhqh9WZSMZvfJ/s1600/ChatGPT%20Image%202026%EB%85%84%207%EC%9B%94%2019%EC%9D%BC%20%EC%98%A4%ED%9B%84%2011_57_40.png"
+    alt="힐링편의점 계산기"
+  />
+</div>
+
+<div class="hm-ad-wrap">
+  <ins class="adsbygoogle hm-ad-top"
+       style="display:inline-block"
+       data-ad-client="ca-pub-8341470683891223"
+       data-ad-slot="5437512125"></ins>
+</div>
+
+<script async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8341470683891223"
+  crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- ==================================================
+     Healing Mart Calculator Platform v4.0.0
+     Converter-style efficient directory layout
+     Blogger = user-facing platform
+     GitHub Pages = static JS/CSS/calculator hosting
+     © Healing Mart. All rights reserved.
+================================================== -->
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebApplication",
+  "name":"힐링편의점 계산기",
+  "alternateName":"HealingMart Calculator",
+  "description":"생활, 금융, 건강, 날짜, 단위, 수학 등 다양한 계산기를 한곳에서 쉽고 빠르게 이용할 수 있는 계산기 모음입니다.",
+  "applicationCategory":"UtilitiesApplication",
+  "operatingSystem":"Web",
+  "isAccessibleForFree":true,
+  "publisher":{
+    "@type":"Organization",
+    "name":"Healing Mart",
+    "url":"https://www.healing-mart.com/"
+  },
+  "offers":{
+    "@type":"Offer",
+    "price":"0",
+    "priceCurrency":"KRW"
+  }
+}
+</script>
+
+<link
+  id="hm-calc-css-v4"
+  rel="stylesheet"
+  href="https://healingmart.github.io/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=4.2.0"
+/>
+
+<style>
+/* ==================================================
+   HealingMart 계산기 Blogger 운영 셸 v4.2.2
+================================================== */
+#healingMartCalculatorApp{
+  width:100%;
+  max-width:1500px;
+  margin:0 auto;
+  padding:0 6px;
+  color:#10233b;
+  font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",Arial,sans-serif;
+  box-sizing:border-box;
+}
+#healingMartCalculatorApp,
+#healingMartCalculatorApp *,
+#healingMartCalculatorApp *::before,
+#healingMartCalculatorApp *::after{box-sizing:border-box}
+
+/* 자동목차 완전 비활성 · 계산기 페이지 전용
+   VTrick AutoTOC의 동적 tocify 계열 래퍼까지 함께 차단합니다.
+*/
+body:has(#healingMartCalculatorApp) #toc,
+body:has(#healingMartCalculatorApp) .toc,
+body:has(#healingMartCalculatorApp) #auto-toc,
+body:has(#healingMartCalculatorApp) .auto-toc,
+body:has(#healingMartCalculatorApp) .post-toc,
+body:has(#healingMartCalculatorApp) .toc-container,
+body:has(#healingMartCalculatorApp) .table-of-contents,
+body:has(#healingMartCalculatorApp) #toc-container,
+body:has(#healingMartCalculatorApp) #toc_container,
+body:has(#healingMartCalculatorApp) .tocify-wrap,
+body:has(#healingMartCalculatorApp) .tocify-inner,
+body:has(#healingMartCalculatorApp) .tocify-title,
+body:has(#healingMartCalculatorApp) a.tocify-title,
+body:has(#healingMartCalculatorApp) [class^="tocify-"],
+body:has(#healingMartCalculatorApp) [class*=" tocify-"],
+body:has(#healingMartCalculatorApp) [id^="tocify-"]{
+  display:none!important;
+  visibility:hidden!important;
+  width:0!important;
+  height:0!important;
+  min-height:0!important;
+  max-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  overflow:hidden!important;
+}
+
+/* 계산기 페이지 사이드바 제거 */
+body:has(#healingMartCalculatorApp) #sidebar-wrapper,
+body:has(#healingMartCalculatorApp) .sidebar-wrapper,
+body:has(#healingMartCalculatorApp) #sidebar,
+body:has(#healingMartCalculatorApp) .sidebar,
+body:has(#healingMartCalculatorApp) #blog-sidebar,
+body:has(#healingMartCalculatorApp) .blog-sidebar,
+body:has(#healingMartCalculatorApp) #sidebar-container,
+body:has(#healingMartCalculatorApp) .sidebar-container,
+body:has(#healingMartCalculatorApp) .sidebar-area{display:none!important}
+
+/* 툴 본문 외곽 카드 제거 */
+body:has(#healingMartCalculatorApp) .entry-content-wrap:has(#healingMartCalculatorApp),
+body:has(#healingMartCalculatorApp) .hm-post-main-wrap:has(#healingMartCalculatorApp){
+  padding:0!important;
+  margin-bottom:0!important;
+  background:transparent!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+body:has(#healingMartCalculatorApp) .entry-content-wrap.hm-post-main-wrap{
+  padding-bottom:0!important;
+  margin-bottom:0!important;
+}
+body:has(#healingMartCalculatorApp) .entry-content-wrap.hm-post-bottom-wrap{
+  margin-top:18px!important;
+}
+body:has(#healingMartCalculatorApp) .entry-content-wrap.hm-post-bottom-wrap .hm-info-box{
+  margin-top:0!important;
+}
+
+/* Blogger 본문 확장 */
+body:has(#healingMartCalculatorApp) #main-wrapper,
+body:has(#healingMartCalculatorApp) .main-wrapper,
+body:has(#healingMartCalculatorApp) #content-wrapper,
+body:has(#healingMartCalculatorApp) .content-wrapper,
+body:has(#healingMartCalculatorApp) .main-content,
+body:has(#healingMartCalculatorApp) .main-inner{
+  width:100%!important;
+  max-width:none!important;
+  margin-right:auto!important;
+  margin-left:auto!important;
+  float:none!important;
+  grid-template-columns:minmax(0,1fr)!important;
+}
+body:has(#healingMartCalculatorApp) .post-wrapper,
+body:has(#healingMartCalculatorApp) .post-outer,
+body:has(#healingMartCalculatorApp) .post-outer-container,
+body:has(#healingMartCalculatorApp) article.post,
+body:has(#healingMartCalculatorApp) .post,
+body:has(#healingMartCalculatorApp) .post-body,
+body:has(#healingMartCalculatorApp) .entry-content{
+  width:100%!important;
+  max-width:1540px!important;
+  margin-right:auto!important;
+  margin-left:auto!important;
+  padding-right:0!important;
+  padding-left:0!important;
+  float:none!important;
+}
+
+body:has(#healingMartCalculatorApp){
+  padding-bottom:0!important;
+  margin-bottom:0!important;
+}
+body:has(#healingMartCalculatorApp) .post-outer,
+body:has(#healingMartCalculatorApp) .post-outer-container,
+body:has(#healingMartCalculatorApp) article.post{
+  padding-bottom:0!important;
+  margin-bottom:0!important;
+}
+
+@media(min-width:761px){
+  #healingMartCalculatorApp{
+    width:calc(100% - 24px)!important;
+    max-width:1500px!important;
+    margin-right:auto!important;
+    margin-left:auto!important;
+  }
+}
+
+@media(max-width:760px){
+  #healingMartCalculatorApp{
+    width:calc(100% + 32px)!important;
+    max-width:none!important;
+    margin-right:-16px!important;
+    margin-left:-16px!important;
+    padding:0 1px!important;
+  }
+  #healingMartCalculatorApp [data-hm-calc-stage]{
+    padding-right:1px!important;
+    padding-left:1px!important;
+  }
+  body:has(#healingMartCalculatorApp) .entry-content-wrap.hm-post-bottom-wrap{
+    margin-top:12px!important;
+  }
+}
+
+/* ===== 광고 ===== */
+.hm-ad-wrap{
+  width:100%;
+  margin:8px auto 10px;
+  text-align:center;
+  overflow:hidden;
+  box-sizing:border-box;
+}
+.hm-ad-wrap .hm-ad-top{
+  display:inline-block!important;
+  margin:0 auto!important;
+  box-sizing:border-box;
+}
+@media(max-width:499px){
+  .hm-ad-wrap{width:100%;max-width:320px;min-height:50px;margin:4px auto 8px;padding:0}
+  .hm-ad-wrap .hm-ad-top{width:320px!important;height:50px!important;max-width:100%!important}
+}
+@media(min-width:500px) and (max-width:767px){
+  .hm-ad-wrap{width:100%;margin:6px auto 10px;padding:0 10px}
+  .hm-ad-wrap .hm-ad-top{width:468px!important;height:60px!important;max-width:100%!important}
+}
+@media(min-width:768px) and (max-width:1024px){
+  .hm-ad-wrap{width:100%;margin:8px auto 10px;padding:0 10px}
+  .hm-ad-wrap .hm-ad-top{width:728px!important;height:90px!important;max-width:100%!important}
+}
+@media(min-width:1025px){
+  .hm-ad-wrap{width:100%;max-width:1050px;margin:8px auto 10px;padding:0 12px}
+  .hm-ad-wrap .hm-ad-top{width:1025px!important;height:90px!important;max-width:100%!important}
+}
+
+/* ===== 앱 경계 ===== */
+.hm-calc-bottom-boundary{
+  width:1px;
+  height:1px;
+  display:block;
+  margin:0;
+  padding:0;
+  visibility:hidden;
+  pointer-events:none;
+}
+
+/* ===== PC/모바일 공통 하단 메뉴 ===== */
+.hm-calc-bottom-nav{
+  width:min(620px,calc(100% - 24px));
+  min-height:58px;
+  padding:5px 8px;
+  position:fixed;
+  left:50%;
+  bottom:12px;
+  z-index:2147483000;
+  transform:translateX(-50%);
+  display:grid!important;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:5px;
+  border:1px solid rgba(203,213,225,.95);
+  border-radius:18px;
+  background:rgba(255,255,255,.97);
+  box-shadow:0 12px 34px rgba(15,23,42,.18);
+  backdrop-filter:blur(16px);
+  transition:opacity .18s ease,visibility .18s ease,transform .18s ease!important;
+}
+.hm-calc-bottom-nav button{
+  min-width:0;
+  min-height:46px;
+  padding:6px 10px;
+  border:0;
+  border-radius:12px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  color:#334155;
+  background:transparent;
+  font:inherit;
+  font-size:14px;
+  font-weight:850;
+  line-height:1;
+  cursor:pointer;
+}
+.hm-calc-bottom-nav button svg{
+  width:20px;
+  height:20px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:2;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+.hm-calc-bottom-nav button[data-hm-calc-nav="search"]{
+  color:#fff;
+  background:linear-gradient(135deg,#2563eb,#4d76ed);
+  box-shadow:0 7px 18px rgba(37,99,235,.25);
+}
+.hm-calc-bottom-nav.hm-bottom-nav-outside{
+  opacity:0!important;
+  visibility:hidden!important;
+  pointer-events:none!important;
+  transform:translate(-50%,calc(100% + 34px))!important;
+}
+@media(max-width:760px){
+  .hm-calc-bottom-nav{
+    width:calc(100% - 16px);
+    max-width:540px;
+    min-height:70px;
+    padding:6px 7px calc(6px + env(safe-area-inset-bottom));
+    bottom:8px;
+    border-radius:20px;
+    gap:4px;
+  }
+  .hm-calc-bottom-nav button{
+    min-height:58px;
+    padding:5px 3px;
+    flex-direction:column;
+    gap:3px;
+    border-radius:14px;
+    font-size:12px;
+    line-height:1.15;
+  }
+  .hm-calc-bottom-nav button svg{width:22px;height:22px}
+  .hm-calc-bottom-nav.hm-bottom-nav-outside{
+    transform:translate(-50%,calc(100% + 26px))!important;
+  }
+}
+</style>
+
+<div
+  id="healingMartCalculatorApp"
+  data-hm-calc-app
+  data-tool-id="healingmart-calculator"
+  data-tool-name="힐링편의점 계산기"
+  data-tool-author="Healing Mart"
+  data-tool-version="4.4.0"
+  data-view="directory"
+>
+  <section data-hm-calc-stage aria-live="polite">
+    <div style="min-height:320px;display:grid;place-items:center;color:#475569;font-size:15px;font-weight:800;">계산기를 불러오는 중입니다.</div>
+  </section>
+</div>
+
+<span class="hm-calc-bottom-boundary" data-hm-calc-bottom-boundary aria-hidden="true"></span>
+
+<nav class="hm-calc-bottom-nav hm-bottom-nav-outside" aria-label="계산기 빠른 메뉴" aria-hidden="true">
+  <button type="button" data-hm-calc-nav="home" aria-label="계산기 홈">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"></path><path d="M5.5 10.5V20h13v-9.5"></path><path d="M9.5 20v-6h5v6"></path></svg>
+    <span>홈</span>
+  </button>
+  <button type="button" data-hm-calc-nav="search" aria-label="빠른 계산기 찾기">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg>
+    <span>빠른찾기</span>
+  </button>
+  <button type="button" data-hm-calc-nav="recent" aria-label="최근 사용한 계산기">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"></path><path d="M3 4v5h5"></path><path d="M12 7v5l3 2"></path></svg>
+    <span>최근사용</span>
+  </button>
+  <button type="button" data-hm-calc-nav="categories" aria-label="계산 카테고리">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"></rect><rect x="14" y="4" width="6" height="6" rx="1"></rect><rect x="4" y="14" width="6" height="6" rx="1"></rect><rect x="14" y="14" width="6" height="6" rx="1"></rect></svg>
+    <span>카테고리</span>
+  </button>
+</nav>
+
+<script
+  src="https://healingmart.github.io/healingmart-calculator/dist/js/hm-calc-app.v4.4.0.min.js?v=4.4.0"
+  data-base="https://healingmart.github.io/healingmart-calculator"
+  defer>
+</script>
+
+<script>
+//<![CDATA[
+var TOOL_INFO = Object.freeze({
+  id:"healingmart-calculator",
+  name:"힐링편의점 계산기",
+  brand:"Healing Mart",
+  author:"Healing Mart",
+  version:"4.4.0",
+  website:"https://www.healing-mart.com/"
+});
+
+window.setTimeout(function(){
+  var app=document.querySelector("[data-hm-calc-app]");
+  var stage=document.querySelector("[data-hm-calc-stage]");
+  if(!app||!stage)return;
+  if(app.dataset.hmCalcAppMounted==="true")return;
+  stage.innerHTML='<div style="max-width:760px;min-height:260px;margin:30px auto;padding:30px 20px;display:grid;place-items:center;border:1px solid #fecaca;border-radius:18px;color:#7f1d1d;background:#fff7f7;text-align:center;"><div><strong style="display:block;margin-bottom:8px;font-size:20px;">계산기를 불러오지 못했습니다.</strong><span style="font-size:13px;line-height:1.7;">GitHub의 hm-calc-app.v4.4.0.min.js와 hm-calc.v4.2.css 업로드 경로를 확인해 주세요.</span></div></div>';
+},8000);
+//]]>
+</script>

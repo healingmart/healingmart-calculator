@@ -1,18 +1,18 @@
 {
-  "release": "4.3.0",
-  "appJs": "4.3.0",
+  "release": "4.4.0",
+  "appJs": "4.4.0",
   "css": "4.2.0",
-  "registry": "3.1.0",
-  "selfTest": "1.1.0",
+  "registry": "3.2.0",
+  "selfTest": "1.2.0",
   "categories": 12,
-  "calculators": 210,
-  "modules": 85,
-  "qaCases": 370,
+  "calculators": 240,
+  "modules": 90,
+  "qaCases": 460,
   "changes": [
-    "30 browser-only calculators added",
-    "Featured calculator ordering added",
+    "30 additional browser-only calculators",
+    "Home project, health, productivity, business and auto/property packs",
     "Registry/module cache version bumped",
-    "Self-Test expanded to 370 formula QA cases"
+    "Self-Test expanded to 460 formula QA cases"
   ],
   "staticChecks": {
     "newCalculators": true,
@@ -22,5 +22,10 @@
     "registryVersion": true,
     "bloggerVersion": true
   },
-  "selfTestNodeSyntax": true
+  "localChecks": {
+    "activeJsSyntaxPassed": 96,
+    "formulaQaPassed": 460,
+    "registeredCalculators": 240,
+    "formulaQaFailures": 0
+  }
 }
