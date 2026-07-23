@@ -1,18 +1,18 @@
 {
-  "release": "4.8.0",
-  "appJs": "4.8.0",
+  "release": "4.9.0",
+  "appJs": "4.9.0",
   "css": "4.2.0",
-  "registry": "3.6.0",
-  "selfTest": "1.6.0",
+  "registry": "3.7.0",
+  "selfTest": "1.7.0",
   "categories": 12,
-  "calculators": 360,
-  "modules": 110,
-  "qaCases": 820,
+  "calculators": 390,
+  "modules": 115,
+  "qaCases": 910,
   "changes": [
     "30 additional browser-only calculators",
-    "Health, payroll, automotive, food and education packs",
+    "Personal debt, business cash flow, statistics, electrical circuits and logistics packs",
     "Registry/module cache version bumped",
-    "Self-Test expanded to 820 formula QA cases"
+    "Self-Test expanded to 910 formula QA cases"
   ],
   "staticChecks": {
     "newCalculators": true,
@@ -23,9 +23,9 @@
     "bloggerVersion": true
   },
   "localChecks": {
-    "activeJsSyntaxPassed": 116,
-    "formulaQaPassed": 820,
-    "registeredCalculators": 360,
+    "activeJsSyntaxPassed": 121,
+    "formulaQaPassed": 910,
+    "registeredCalculators": 390,
     "formulaQaFailures": 0
   }
 }
