@@ -1,0 +1,27 @@
+HealingMart Calculator v5.0.0 · 420 Calculator Expansion
+
+구성
+- 카테고리: 12개
+- 계산기: 420개
+- 활성 모듈: 120개
+- 공식 QA: 1,000건
+- 신규 계산기: 30개
+
+버전
+- Blogger Shell: 5.0.0
+- App JS: 5.0.0
+- CSS: 4.2.0
+- Registry: 3.8.0
+- Self-Test: 1.8.0
+
+신규 모듈
+- real-estate-analysis-pack-v11.min.js
+- ecommerce-analytics-pack-v11.min.js
+- home-efficiency-pack-v11.min.js
+- health-routine-pack-v11.min.js
+- probability-electronics-pack-v11.min.js
+
+로컬 검증
+- 활성 JS 문법검사: 126개 PASS
+- 계산기 등록: 420개 PASS
+- 공식 계산식 QA: 1,000건 PASS / FAIL 0

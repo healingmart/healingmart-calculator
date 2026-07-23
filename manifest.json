@@ -1,31 +1,23 @@
 {
-  "release": "4.9.0",
-  "appJs": "4.9.0",
+  "release": "5.0.0",
+  "appJs": "5.0.0",
   "css": "4.2.0",
-  "registry": "3.7.0",
-  "selfTest": "1.7.0",
+  "registry": "3.8.0",
+  "selfTest": "1.8.0",
   "categories": 12,
-  "calculators": 390,
-  "modules": 115,
-  "qaCases": 910,
+  "calculators": 420,
+  "modules": 120,
+  "qaCases": 1000,
   "changes": [
     "30 additional browser-only calculators",
-    "Personal debt, business cash flow, statistics, electrical circuits and logistics packs",
+    "Real estate, ecommerce, home efficiency, health routine, probability/electronics packs",
     "Registry/module cache version bumped",
-    "Self-Test expanded to 910 formula QA cases"
+    "Self-Test expanded to 1000 formula QA cases"
   ],
-  "staticChecks": {
-    "newCalculators": true,
-    "totalCalculators": true,
-    "newModules": true,
-    "appVersion": true,
-    "registryVersion": true,
-    "bloggerVersion": true
-  },
   "localChecks": {
-    "activeJsSyntaxPassed": 121,
-    "formulaQaPassed": 910,
-    "registeredCalculators": 390,
+    "activeJsSyntaxPassed": 126,
+    "formulaQaPassed": 1000,
+    "registeredCalculators": 420,
     "formulaQaFailures": 0
   }
 }

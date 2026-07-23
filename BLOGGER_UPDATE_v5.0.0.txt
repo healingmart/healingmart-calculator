@@ -1,0 +1,6 @@
+HealingMart Calculator Blogger v5.0.0
+
+전체 교체 파일:
+HealingMart_계산기_Blogger_420개확장_v5.0.0.html
+
+Self-Test: test/hm-calculator-self-test.v1.8.0.js
