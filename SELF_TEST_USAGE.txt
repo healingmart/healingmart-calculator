@@ -1,16 +1,19 @@
-HealingMart Calculator Self-Test v1.8.0
+HealingMart Calculator Self-Test v1.7.1
 
 대상
-- App JS: v4.6.0
+- App JS: v4.9.0
 - CSS: v4.2.0
-- Registry: v3.4.0
+- Registry: v3.7.0
 - 카테고리: 12개
-- 계산기: 300개
-- 고유 계산 모듈: 100개
-- 공식 QA 케이스: 640개
+- 계산기: 390개
+- 고유 계산 모듈: 115개
+- 공식 QA 케이스: 910개
+
+GitHub 업로드 위치
+/test/hm-calculator-self-test.v1.7.1.js
 
 직접 확인 링크
-https://healingmart.github.io/healingmart-calculator/test/hm-calculator-self-test.v1.8.0.js
+https://healingmart.github.io/healingmart-calculator/test/hm-calculator-self-test.v1.7.1.js
 
 Calculator Blogger 페이지를 연 뒤 개발자도구 Console에서 실행:
 
@@ -25,21 +28,14 @@ Calculator Blogger 페이지를 연 뒤 개발자도구 Console에서 실행:
   const s = document.createElement("script");
   s.src =
     "https://healingmart.github.io/healingmart-calculator/test/" +
-    "hm-calculator-self-test.v1.8.0.js?v=" +
+    "hm-calculator-self-test.v1.7.1.js?v=" +
     Date.now();
+  s.onerror = () => console.error("Self-Test v1.7.1 파일을 불러오지 못했습니다.");
   document.head.appendChild(s);
 })();
 
-검사
-- 핵심 파일과 100개 모듈 HTTP 및 SHA-256
-- 100개 모듈 로드
-- 300개 계산기 register 확인
-- 640개 공식 QA 실제 compute 실행
-- 12개 카테고리와 개수 검증
-- Blogger app 마운트·버전·JS·CSS 경로
-- 대표 이미지·AdSense·하단메뉴·Bottom boundary
-- 자동목차와 tocify 계열 차단 확인
-
 목표 결과
+- 계산기 390개
+- 모듈 115개
+- 공식 QA 910건
 - FAIL 0
-- 공식 QA 640건 PASS

@@ -1,13 +1,12 @@
 {
-  "selfTestVersion": "1.8.0",
-  "targetAppVersion": "5.0.0",
+  "selfTestVersion": "1.7.1",
+  "targetAppVersion": "4.9.0",
   "targetCssVersion": "4.2.0",
-  "targetRegistryVersion": "3.8.0",
+  "targetRegistryVersion": "3.7.0",
   "expectedCategories": 12,
-  "expectedCalculators": 420,
-  "expectedModules": 120,
-  "expectedQaCases": 1000,
+  "expectedCalculators": 390,
+  "expectedModules": 115,
+  "expectedQaCases": 910,
   "nodeSyntaxCheck": true,
-  "localFormulaQaPassed": 1000,
-  "sha256": "ce7971b370c7abd2bcafb19045b093f3ec2374a67a3f4f6b12616157f527e527"
+  "sha256": "08ebf0562244f1bfb06dab917f7994dd82360c37c86ceabf00dea0c244ddfe72"
 }
