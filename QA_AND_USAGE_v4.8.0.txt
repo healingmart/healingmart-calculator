@@ -1,0 +1,38 @@
+HealingMart Calculator v4.8.0 · 360 Calculator Expansion
+
+구성
+- 카테고리: 12개
+- 계산기: 360개
+- 활성 모듈: 110개
+- 공식 QA: 820건
+- 신규 계산기: 30개
+
+버전
+- Blogger Shell: 4.8.0
+- App JS: 4.8.0
+- CSS: 4.2.0
+- Registry: 3.6.0
+- Self-Test: 1.6.0
+
+신규 모듈
+- health-performance-pack-v9.min.js
+- payroll-worktime-pack-v9.min.js
+- auto-motion-pack-v9.min.js
+- food-production-pack-v9.min.js
+- education-productivity-pack-v9.min.js
+
+로컬 검증
+- 활성 JS 문법검사: 116개 PASS
+- 계산기 등록: 360개 PASS
+- 공식 계산식 QA: 820건 PASS / FAIL 0
+
+업로드 순서
+1. 업데이트 ZIP의 파일을 GitHub 저장소 루트에 업로드
+2. 기존 파일은 교체하고 신규 pack 파일은 추가
+3. Blogger 본문을 HealingMart_계산기_Blogger_360개확장_v4.8.0.html로 전체 교체
+4. GitHub Pages 반영 후 Self-Test v1.6.0 실행
+
+중요
+- 기존 CSS v4.2.0과 core/sound/share JS는 변경하지 않았습니다.
+- 외부 API나 비밀키를 사용하지 않습니다.
+- 건강·자동차 관련 결과는 입력값 기반 참고용 추정이며 실제 기준과 안전지침을 우선 확인해야 합니다.
