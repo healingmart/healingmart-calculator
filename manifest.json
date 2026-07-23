@@ -1,18 +1,18 @@
 {
-  "release": "4.4.0",
-  "appJs": "4.4.0",
+  "release": "4.5.0",
+  "appJs": "4.5.0",
   "css": "4.2.0",
-  "registry": "3.2.0",
-  "selfTest": "1.2.0",
+  "registry": "3.3.0",
+  "selfTest": "1.3.0",
   "categories": 12,
-  "calculators": 240,
-  "modules": 90,
-  "qaCases": 460,
+  "calculators": 270,
+  "modules": 95,
+  "qaCases": 550,
   "changes": [
     "30 additional browser-only calculators",
-    "Home project, health, productivity, business and auto/property packs",
+    "Work/payroll, health, study, kitchen and date/planning packs",
     "Registry/module cache version bumped",
-    "Self-Test expanded to 460 formula QA cases"
+    "Self-Test expanded to 550 formula QA cases"
   ],
   "staticChecks": {
     "newCalculators": true,
@@ -23,9 +23,9 @@
     "bloggerVersion": true
   },
   "localChecks": {
-    "activeJsSyntaxPassed": 96,
-    "formulaQaPassed": 460,
-    "registeredCalculators": 240,
+    "activeJsSyntaxPassed": 101,
+    "formulaQaPassed": 550,
+    "registeredCalculators": 270,
     "formulaQaFailures": 0
   }
 }
