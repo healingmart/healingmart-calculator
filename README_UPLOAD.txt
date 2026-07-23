@@ -1,15 +1,21 @@
-HealingMart Calculator v4.2.1 모바일 카테고리 시트 수정
+HealingMart Calculator v4.6.0 · 300개 확장 업로드 안내
 
-수정 내용
-- 모바일에서 '카테고리'를 눌렀을 때 검색 입력창으로 자동 포커스되지 않음
-- 모바일 키보드가 자동으로 올라오지 않음
-- 카테고리 시트를 열 때 항상 맨 위의 카테고리 영역부터 표시
-- 빠른찾기를 눌렀을 때만 검색창 자동 포커스
+GitHub 저장소 루트에 업데이트 ZIP의 폴더 구조를 그대로 업로드합니다.
+기존 파일은 교체하고 신규 파일은 추가합니다.
 
-GitHub 저장소 루트 기준 업로드:
-dist/js/hm-calc-app.v4.2.1.min.js
+주요 파일
+- dist/js/hm-calc-app.v4.6.0.min.js
+- dist/data/hm-calc-registry.v1.js
+- dist/data/hm-calculators.v1.js
+- dist/calculators/*-pack-v7.min.js 5개
+- test/hm-calculator-self-test.v1.4.0.js
 
-확인 주소:
-https://healingmart.github.io/healingmart-calculator/dist/js/hm-calc-app.v4.2.1.min.js
+Blogger
+- HealingMart_계산기_Blogger_300개확장_v4.6.0.html의 내용을 계산기 게시물에 전체 교체합니다.
 
-CSS는 기존 dist/css/hm-calc.v4.2.css 그대로 사용합니다.
+확인 주소
+- App JS: https://healingmart.github.io/healingmart-calculator/dist/js/hm-calc-app.v4.6.0.min.js
+- Registry: https://healingmart.github.io/healingmart-calculator/dist/data/hm-calc-registry.v1.js
+- Self-Test: https://healingmart.github.io/healingmart-calculator/test/hm-calculator-self-test.v1.4.0.js
+
+기존 CSS dist/css/hm-calc.v4.2.css와 core/sound/share JS는 그대로 사용합니다.

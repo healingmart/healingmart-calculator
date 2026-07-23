@@ -1,16 +1,16 @@
-HealingMart Calculator Self-Test v1.0.0
+HealingMart Calculator Self-Test v1.4.0
 
 대상
-- App JS: v4.2.1
+- App JS: v4.6.0
 - CSS: v4.2.0
-- Registry: v3.0.0
+- Registry: v3.4.0
 - 카테고리: 12개
-- 계산기: 180개
-- 고유 계산 모듈: 80개
-- 공식 QA 케이스: 280개
+- 계산기: 300개
+- 고유 계산 모듈: 100개
+- 공식 QA 케이스: 640개
 
-GitHub 업로드
-test/hm-calculator-self-test.v1.0.0.js
+직접 확인 링크
+https://healingmart.github.io/healingmart-calculator/test/hm-calculator-self-test.v1.4.0.js
 
 Calculator Blogger 페이지를 연 뒤 개발자도구 Console에서 실행:
 
@@ -25,24 +25,21 @@ Calculator Blogger 페이지를 연 뒤 개발자도구 Console에서 실행:
   const s = document.createElement("script");
   s.src =
     "https://healingmart.github.io/healingmart-calculator/test/" +
-    "hm-calculator-self-test.v1.0.0.js?v=" +
+    "hm-calculator-self-test.v1.4.0.js?v=" +
     Date.now();
   document.head.appendChild(s);
 })();
 
-
 검사
-- 핵심 파일/80개 모듈 HTTP + SHA-256
-- 80개 모듈 로드
-- 180개 계산기 register 확인
-- 280개 공식 QA 실제 compute 실행
+- 핵심 파일과 100개 모듈 HTTP 및 SHA-256
+- 100개 모듈 로드
+- 300개 계산기 register 확인
+- 640개 공식 QA 실제 compute 실행
 - 12개 카테고리와 개수 검증
-- Blogger app 마운트/버전/JS/CSS 경로
-- 대표 이미지/AdSense/하단메뉴/Bottom boundary
-- 자동목차 실제 노출 여부
-- tocify 계열 차단 CSS 존재 여부
+- Blogger app 마운트·버전·JS·CSS 경로
+- 대표 이미지·AdSense·하단메뉴·Bottom boundary
+- 자동목차와 tocify 계열 차단 확인
 
-참고
-현재 보관된 Blogger v4.2.1 원본에는 data-tool-version="4.1.0",
-TOOL_INFO.version="4.0.0"이 남아 있고 tocify 계열 차단 CSS가 없습니다.
-실제 배포 페이지도 동일하다면 Self-Test가 이 항목들을 FAIL로 잡는 것이 정상입니다.
+목표 결과
+- FAIL 0
+- 공식 QA 640건 PASS
