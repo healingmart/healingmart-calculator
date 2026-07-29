@@ -1,0 +1,140 @@
+{
+  "version": "6.1.2",
+  "expectedPublishedCount": 420,
+  "ok": true,
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
+  "results": [
+    {
+      "name": "calculator_count",
+      "ok": true,
+      "detail": "420/420"
+    },
+    {
+      "name": "category_count",
+      "ok": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "unique_public_ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "unique_legacy_ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "handler_count",
+      "ok": true,
+      "detail": "420"
+    },
+    {
+      "name": "required_metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no_duplicate_calculator_word_aliases",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "no_duplicate_calculator_word_keywords",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search_디데이",
+      "ok": true,
+      "detail": "dday-calculator"
+    },
+    {
+      "name": "search_D-day",
+      "ok": true,
+      "detail": "dday-calculator"
+    },
+    {
+      "name": "search_D데이",
+      "ok": true,
+      "detail": "dday-calculator"
+    },
+    {
+      "name": "search_기념일",
+      "ok": true,
+      "detail": "dday-calculator"
+    },
+    {
+      "name": "search_quality_월급 실수령액",
+      "ok": true,
+      "detail": "gross-to-net-custom-calculator"
+    },
+    {
+      "name": "search_quality_세후 월급",
+      "ok": true,
+      "detail": "gross-to-net-custom-calculator"
+    },
+    {
+      "name": "search_quality_평수",
+      "ok": true,
+      "detail": "area-calculator"
+    },
+    {
+      "name": "search_quality_평 제곱미터",
+      "ok": true,
+      "detail": "area-calculator"
+    },
+    {
+      "name": "search_quality_평방미터",
+      "ok": true,
+      "detail": "area-calculator"
+    },
+    {
+      "name": "search_quality_중개수수료",
+      "ok": true,
+      "detail": "brokerage-custom-calculator"
+    },
+    {
+      "name": "search_date_difference",
+      "ok": true,
+      "detail": "date-difference-calculator"
+    },
+    {
+      "name": "gross_to_net_disclaimer",
+      "ok": true,
+      "detail": "세전 금액과 총 공제율을 사용자가 직접 입력해 세후 금액을 계산합니다. 4대보험과 근로소득세를 자동 산정하지 않습니다."
+    },
+    {
+      "name": "canonical_route",
+      "ok": true,
+      "detail": "{\"view\":\"calculator\",\"toolId\":\"dday-calculator\",\"calculator\":{\"id\":\"dday-calculator\",\"legacyId\":\"dday\",\"handlerId\":\"dday\",\"type\":\"calculator\",\"parentId\":\"calculator-hub\",\"name\":\"D-day 계산기\",\"shortName\":\"D-day\",\"category\":\"date\",\"subcategory\":\"age-anniversary\",\"description\":\"목표일까지 남은 날짜 또는 지난 날짜를 계산합니다.\",\"aliases\":[\"D-day\",\"D day 계산기\",\"D데이\",\"디데이\",\"기념일 계산기\",\"남은 날짜 계산\",\"시험일까지\"],\"keywords\":[\"디데이\",\"D-day\",\"남은날짜\",\"기념일\",\"D day 계산기\",\"D데이\",\"기념일 계산기\",\"남은 날짜 계산\",\"시험일까지\",\"날짜·시간\",\"나이·기념일\"],\"route\":\"dday-calculator\",\"status\":\"published\",\"featured\":true,\"featuredOrder\":9999,\"isNew\":false,\"updatedAt\":\"2026-07-29\",\"order\":70,\"relatedIds\":[\"date-difference-calculator\",\"age-calculator\",\"date-add-calculator\",\"day-of-week-calculator\"],\"module\":\"dday\",\"categories\":[\"date\",\"life\"],\"enabled\":true,\"published\":true,\"popular\":true,\"content\":{\"useCases\":[],\"howItWorks\":\"\",\"example\":\"\",\"notes\":[],\"faq\":[]},\"legacyHref\":\"/p/dday-calculator.html\",\"bloggerUrl\":\"/p/dday-calculator.html\",\"bloggerReady\":false,\"addedAt\":null,\"searchVisible\":true},\"category\":\"date\",\"migrated\":false}"
+    },
+    {
+      "name": "legacy_route_migration",
+      "ok": true,
+      "detail": "{\"view\":\"calculator\",\"toolId\":\"dday-calculator\",\"calculator\":{\"id\":\"dday-calculator\",\"legacyId\":\"dday\",\"handlerId\":\"dday\",\"type\":\"calculator\",\"parentId\":\"calculator-hub\",\"name\":\"D-day 계산기\",\"shortName\":\"D-day\",\"category\":\"date\",\"subcategory\":\"age-anniversary\",\"description\":\"목표일까지 남은 날짜 또는 지난 날짜를 계산합니다.\",\"aliases\":[\"D-day\",\"D day 계산기\",\"D데이\",\"디데이\",\"기념일 계산기\",\"남은 날짜 계산\",\"시험일까지\"],\"keywords\":[\"디데이\",\"D-day\",\"남은날짜\",\"기념일\",\"D day 계산기\",\"D데이\",\"기념일 계산기\",\"남은 날짜 계산\",\"시험일까지\",\"날짜·시간\",\"나이·기념일\"],\"route\":\"dday-calculator\",\"status\":\"published\",\"featured\":true,\"featuredOrder\":9999,\"isNew\":false,\"updatedAt\":\"2026-07-29\",\"order\":70,\"relatedIds\":[\"date-difference-calculator\",\"age-calculator\",\"date-add-calculator\",\"day-of-week-calculator\"],\"module\":\"dday\",\"categories\":[\"date\",\"life\"],\"enabled\":true,\"published\":true,\"popular\":true,\"content\":{\"useCases\":[],\"howItWorks\":\"\",\"example\":\"\",\"notes\":[],\"faq\":[]},\"legacyHref\":\"/p/dday-calculator.html\",\"bloggerUrl\":\"/p/dday-calculator.html\",\"bloggerReady\":false,\"addedAt\":null,\"searchVisible\":true},\"category\":\"date\",\"migrated\":true}"
+    },
+    {
+      "name": "invalid_route_fallback",
+      "ok": true,
+      "detail": "{\"view\":\"home\",\"category\":\"\",\"toolId\":\"\",\"calculator\":null,\"migrated\":true}"
+    },
+    {
+      "name": "analytics_no_raw_search_query",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "real_minified_build",
+      "ok": true,
+      "detail": "32663 -> 27035"
+    },
+    {
+      "name": "runtime_registry_validation",
+      "ok": true,
+      "detail": "0 errors"
+    }
+  ]
+}

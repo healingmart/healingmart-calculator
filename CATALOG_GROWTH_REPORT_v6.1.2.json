@@ -1,0 +1,38 @@
+{
+  "version": "6.1.2",
+  "basePublishedCount": 420,
+  "simulatedPublishedCount": 421,
+  "ok": true,
+  "total": 6,
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "nested_npm_test_passed",
+      "ok": true
+    },
+    {
+      "name": "published_count_incremented",
+      "ok": true,
+      "detail": "421/421"
+    },
+    {
+      "name": "visible_count_incremented",
+      "ok": true,
+      "detail": "421/421"
+    },
+    {
+      "name": "catalog_item_added",
+      "ok": true
+    },
+    {
+      "name": "catalog_url_generated",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/?tool=catalog-growth-fixture-calculator"
+    },
+    {
+      "name": "new_flag_derived",
+      "ok": true
+    }
+  ]
+}

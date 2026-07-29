@@ -1,0 +1,87 @@
+{
+  "version": "6.1.2",
+  "expectedBase": "https://cdn.example.com/healingmart-calculator",
+  "sourceExplicit": {
+    "file": "dist/js/hm-calc-app.v6.1.2.js",
+    "cssHref": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+    "firstScriptSrc": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2",
+    "appended": [
+      {
+        "tagName": "LINK",
+        "href": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+        "src": ""
+      },
+      {
+        "tagName": "SCRIPT",
+        "href": "",
+        "src": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2"
+      }
+    ]
+  },
+  "minExplicit": {
+    "file": "dist/js/hm-calc-app.v6.1.2.min.js",
+    "cssHref": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+    "firstScriptSrc": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2",
+    "appended": [
+      {
+        "tagName": "LINK",
+        "href": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+        "src": ""
+      },
+      {
+        "tagName": "SCRIPT",
+        "href": "",
+        "src": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2"
+      }
+    ]
+  },
+  "sourceAuto": {
+    "file": "dist/js/hm-calc-app.v6.1.2.js",
+    "cssHref": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+    "firstScriptSrc": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2",
+    "appended": [
+      {
+        "tagName": "LINK",
+        "href": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+        "src": ""
+      },
+      {
+        "tagName": "SCRIPT",
+        "href": "",
+        "src": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2"
+      }
+    ]
+  },
+  "minAuto": {
+    "file": "dist/js/hm-calc-app.v6.1.2.min.js",
+    "cssHref": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+    "firstScriptSrc": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2",
+    "appended": [
+      {
+        "tagName": "LINK",
+        "href": "https://cdn.example.com/healingmart-calculator/dist/css/hm-calc.v4.2.css?v=6.1.2",
+        "src": ""
+      },
+      {
+        "tagName": "SCRIPT",
+        "href": "",
+        "src": "https://cdn.example.com/healingmart-calculator/dist/data/hm-calculator-categories.v2.js?v=6.1.2"
+      }
+    ]
+  },
+  "checks": {
+    "explicitSourceCssPath": true,
+    "explicitMinCssPath": true,
+    "explicitSourceMinParity": true,
+    "automaticSourceCssPath": true,
+    "automaticSourceDataPath": true,
+    "automaticMinCssPath": true,
+    "automaticMinDataPath": true,
+    "automaticSourceMinParity": true,
+    "sourceHasNoPreviousVersionPath": true,
+    "minHasNoPreviousVersionPath": true
+  },
+  "passed": 10,
+  "total": 10,
+  "ok": true
+}

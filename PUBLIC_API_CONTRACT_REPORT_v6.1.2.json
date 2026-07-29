@@ -1,0 +1,75 @@
+{
+  "version": "6.1.2",
+  "expected": [
+    "openCalculatorById",
+    "openSheet",
+    "render",
+    "routeHref",
+    "search",
+    "searchDetailed",
+    "validate",
+    "version"
+  ],
+  "source": {
+    "file": "dist/js/hm-calc-app.v6.1.2.js",
+    "exists": true,
+    "keys": [
+      "openCalculatorById",
+      "openSheet",
+      "render",
+      "routeHref",
+      "search",
+      "searchDetailed",
+      "validate",
+      "version"
+    ],
+    "types": {
+      "openCalculatorById": "function",
+      "openSheet": "function",
+      "render": "function",
+      "routeHref": "function",
+      "search": "function",
+      "searchDetailed": "function",
+      "validate": "function",
+      "version": "string"
+    },
+    "version": "6.1.2"
+  },
+  "minified": {
+    "file": "dist/js/hm-calc-app.v6.1.2.min.js",
+    "exists": true,
+    "keys": [
+      "openCalculatorById",
+      "openSheet",
+      "render",
+      "routeHref",
+      "search",
+      "searchDetailed",
+      "validate",
+      "version"
+    ],
+    "types": {
+      "openCalculatorById": "function",
+      "openSheet": "function",
+      "render": "function",
+      "routeHref": "function",
+      "search": "function",
+      "searchDetailed": "function",
+      "validate": "function",
+      "version": "string"
+    },
+    "version": "6.1.2"
+  },
+  "checks": {
+    "sourceExists": true,
+    "minifiedExists": true,
+    "sourceMatchesExpected": true,
+    "minifiedMatchesExpected": true,
+    "sourceMinifiedParity": true,
+    "callableSurface": true,
+    "versionMatches": true
+  },
+  "passed": 7,
+  "total": 7,
+  "ok": true
+}

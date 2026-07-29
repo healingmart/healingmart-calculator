@@ -1,0 +1,134 @@
+{
+  "version": "6.1.2",
+  "schemaVersion": 1,
+  "totalCount": 420,
+  "publishedCount": 420,
+  "searchVisibleCount": 420,
+  "catalogHash": "be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd",
+  "ok": true,
+  "total": 24,
+  "passed": 24,
+  "failed": 0,
+  "results": [
+    {
+      "name": "catalog_generated",
+      "ok": true,
+      "detail": "object"
+    },
+    {
+      "name": "manifest_generated",
+      "ok": true,
+      "detail": 1
+    },
+    {
+      "name": "catalog_count_matches",
+      "ok": true,
+      "detail": "420/420"
+    },
+    {
+      "name": "manifest_total_count",
+      "ok": true,
+      "detail": "420/420"
+    },
+    {
+      "name": "manifest_published_count",
+      "ok": true,
+      "detail": "420/420"
+    },
+    {
+      "name": "manifest_search_visible_count",
+      "ok": true,
+      "detail": "420/420"
+    },
+    {
+      "name": "catalog_ids_match_registry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "unique_catalog_ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "unique_catalog_urls",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog_url_format",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "only_published_visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "search_visible_false_excluded_by_rule",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "nonpublished_excluded_by_rule",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required_public_schema",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "required_search_fields",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "internal_fields_excluded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog_hash_matches_file",
+      "ok": true,
+      "detail": "be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd/be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "catalog_hash_format",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog_url_matches_manifest",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js"
+    },
+    {
+      "name": "root_tool_url_supported",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "derived_is_new_matches",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog_frozen",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_javascript_counts_match",
+      "ok": true,
+      "detail": "148/148/148"
+    },
+    {
+      "name": "no_hardcoded_legacy_count",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+HealingMart 계산기 v6.1.2 — 기존 저장소에서 삭제할 구버전 파일
+
+주의
+GitHub의 Upload files는 같은 이름의 파일만 덮어쓰고, 아래 구버전 파일은 남겨 둡니다.
+아래 항목은 v6.1.2에서 사용하지 않으므로 삭제해도 됩니다.
+
+[dist/data에서 삭제]
+dist/data/hm-calc-registry.v1.js
+dist/data/hm-calculators.v1.js
+
+[dist/js에서 삭제]
+dist/js/hm-calc-app.v1.min.js
+dist/js/hm-calc-app.v4.js
+dist/js/hm-calc-app.v4.min.js
+dist/js/hm-calc-app.v4.2.min.js
+dist/js/hm-calc-app.v4.2.1.min.js
+dist/js/hm-calc-app.v4.3.0.min.js
+dist/js/hm-calc-app.v4.4.0.min.js
+dist/js/hm-calc-app.v4.5.0.min.js
+dist/js/hm-calc-app.v4.6.0.min.js
+dist/js/hm-calc-app.v4.7.0.min.js
+dist/js/hm-calc-app.v4.8.0.min.js
+dist/js/hm-calc-app.v4.9.0.min.js
+dist/js/hm-calc-app.v5.0.0.min.js
+dist/js/hm-calc-app.v6.0.0.js
+dist/js/hm-calc-app.v6.0.0.min.js
+dist/js/hm-calc-app.v6.1.0.js
+dist/js/hm-calc-app.v6.1.0.min.js
+dist/js/hm-calc-app.v6.1.1.js
+dist/js/hm-calc-app.v6.1.1.min.js
+dist/js/hm-calc-detail.v1.min.js
+dist/js/hm-calc-hub.v1.min.js
+dist/js/hm-calc-loader.v1.min.js
+
+[dist/css에서 삭제]
+dist/css/hm-calc.v1.css
+dist/css/hm-calc.v4.css
+dist/css/hm-calc.v4.1.css
+
+[test에서 삭제]
+test/hm-calculator-self-test.v1.0.0.js
+test/hm-calculator-self-test.v1.0.1.js
+test/hm-calculator-self-test.v1.1.0.js
+test/hm-calculator-self-test.v1.2.0.js
+test/hm-calculator-self-test.v1.3.0.js
+test/hm-calculator-self-test.v1.4.0.js
+test/hm-calculator-self-test.v1.5.0.js
+test/hm-calculator-self-test.v1.6.0.js
+test/hm-calculator-self-test.v1.7.0.js
+test/hm-calculator-self-test.v1.7.1.js
+test/hm-calculator-self-test.v1.8.0.js
+
+[저장소 루트에서 삭제]
+- BLOGGER_UPDATE_v4.*.txt
+- BLOGGER_UPDATE_v5.0.0.txt
+- BLOGGER_UPDATE_v6.0.0.txt
+- BLOGGER_UPDATE_v6.1.0.txt
+- BLOGGER_UPDATE_v6.1.1.txt
+- CHECKSUMS_SHA256_v4.*.txt
+- CHECKSUMS_SHA256_v5.0.0.txt
+- CHECKSUMS_SHA256_v6.0.0.txt
+- CHECKSUMS_SHA256_v6.1.0.txt
+- CHECKSUMS_SHA256_v6.1.1.txt
+- QA_AND_USAGE_v4.*.txt
+- QA_AND_USAGE_v5.0.0.txt
+- SELF_TEST_USAGE.txt
+- 이름에 v4.*, v5.0.0, v6.0.0, v6.1.0 또는 v6.1.1이 포함된 과거 Blogger HTML
+- 과거 버전의 AUDIT, IMPLEMENTATION_REPORT, VALIDATION_REPORT, STRUCTURE_TEST_REPORT,
+  PUBLIC_API_CONTRACT_REPORT, BASE_PATH_REPORT, FORMULA_REGRESSION_REPORT
+
+[v6.1.2에서 유지할 핵심 파일]
+dist/js/hm-calc-app.v6.1.2.js
+dist/js/hm-calc-app.v6.1.2.min.js
+dist/css/hm-calc.v4.2.css
+dist/data/hm-calculator-categories.v2.js
+dist/data/hm-calculators-data.v2.js
+registry-v6.json
+index.html
+demo.html
+manifest.json
+
+구버전 파일이 남아 있어도 v6.1.2 실행에는 직접 영향이 없지만,
+잘못된 파일을 나중에 다시 연결하는 사고를 방지하려면 삭제를 권장합니다.

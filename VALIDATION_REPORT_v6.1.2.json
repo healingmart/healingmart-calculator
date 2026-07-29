@@ -1,0 +1,17 @@
+{
+  "version": "6.1.2",
+  "sourceOfTruth": "registry-v6.json",
+  "generatedDataMatches": true,
+  "totalRegistered": 420,
+  "published": 420,
+  "searchVisible": 420,
+  "categories": 12,
+  "moduleFiles": 120,
+  "registeredHandlers": 420,
+  "expectedPublishedHandlers": 420,
+  "errorCount": 0,
+  "warningCount": 0,
+  "ok": true,
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "healingmart-calculator",
+  "version": "6.1.2",
+  "private": true,
+  "description": "HealingMart registry-driven calculator platform",
+  "scripts": {
+    "build:registry": "node scripts/build-registry.js",
+    "build:catalog": "node scripts/build-public-catalog.js",
+    "build:minify": "node scripts/minify-app.js",
+    "build": "npm run build:registry && npm run build:catalog && npm run build:minify",
+    "validate": "node scripts/validate-calculators.js",
+    "test:structure": "node test/hm-calculator-structure-test.v2.1.0.js",
+    "test:api": "node test/public-api-contract.v1.js",
+    "test:base": "node test/base-path-resolution.v1.js",
+    "test:catalog": "node test/public-catalog-contract.v1.js",
+    "test:loader": "node test/catalog-loader-contract.v1.js",
+    "test:formula": "node test/representative-formula-regression.v1.js",
+    "test": "npm run build && npm run validate && npm run test:structure && npm run test:api && npm run test:base && npm run test:catalog && npm run test:loader && npm run test:growth && npm run test:formula",
+    "test:growth": "node test/catalog-growth-simulation.v1.js",
+    "checksums": "node scripts/generate-checksums.js",
+    "release": "npm test && npm run checksums"
+  }
+}

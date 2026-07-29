@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HealingMart Calculator v6 Runtime</title>
+  <script>
+  (function () {
+    var p = new URLSearchParams(location.search);
+    if (p.has("tool") || p.has("calc") || p.has("category")) {
+      location.replace("demo.html" + location.search + location.hash);
+    }
+  })();
+  </script>
+  <style>
+    body{font-family:Arial,"Noto Sans KR",sans-serif;margin:0;background:#f6f8fb;color:#111827}main{max-width:920px;margin:50px auto;padding:20px}.card{background:#fff;border:1px solid #e5e7eb;border-radius:18px;padding:24px;box-shadow:0 10px 30px rgba(15,23,42,.07)}h1{margin:0 0 8px;font-size:28px}p{color:#64748b;line-height:1.7}.summary{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}.summary div{padding:14px;border-radius:12px;background:#f8fafc;text-align:center}.summary strong{display:block;font-size:22px}.row{padding:12px 0;border-top:1px solid #eef2f7}.ok{color:#08775b;font-weight:800}.bad{color:#b42318;font-weight:800}code{word-break:break-all}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}.actions a{padding:10px 14px;border-radius:10px;background:#2563eb;color:#fff;text-decoration:none;font-weight:800}.actions a.secondary{background:#e2e8f0;color:#1e293b}@media(max-width:700px){.summary{grid-template-columns:repeat(2,1fr)}}
+  </style>
+</head>
+<body><main><div class="card"><h1 id="pageTitle">HealingMart Calculator v6.1.2</h1><p>GitHub Pages 배포 상태, 중앙 레지스트리, 외부 공개 카탈로그를 확인합니다.</p><div class="summary"><div><strong id="calcCount">-</strong><span>공개 계산기</span></div><div><strong id="searchCount">-</strong><span>통합검색 노출</span></div><div><strong id="moduleCount">-</strong><span>모듈</span></div><div><strong id="errorCount">-</strong><span>검증 오류</span></div></div><div id="checks"></div><div class="actions"><a href="demo.html">전체 데모</a><a href="?tool=dday-calculator">디데이 직접 열기</a><a class="secondary" href="CATALOG_INTEGRATION_GUIDE.md">연동 안내</a></div></div></main>
+<script src="dist/js/hm-calculator-catalog-loader.v1.js"></script>
+<script>
+const files=['dist/js/hm-calc-app.v6.1.2.min.js','dist/css/hm-calc.v4.2.css','dist/data/hm-calculator-categories.v2.js','dist/data/hm-calculators-data.v2.js','dist/catalog/hm-calculators-manifest.v1.js','dist/catalog/hm-calculators-search.v1.js','dist/js/hm-calculator-catalog-loader.v1.js','VALIDATION_REPORT_v6.1.2.json','STRUCTURE_TEST_REPORT_v6.1.2.json','PUBLIC_API_CONTRACT_REPORT_v6.1.2.json','BASE_PATH_REPORT_v6.1.2.json','PUBLIC_CATALOG_REPORT_v6.1.2.json','CATALOG_LOADER_REPORT_v6.1.2.json','CATALOG_GROWTH_REPORT_v6.1.2.json','FORMULA_REGRESSION_REPORT_v6.1.2.json'];
+(async()=>{const box=document.getElementById('checks');let failed=0;try{const loader=window.HM_CALCULATOR_CATALOG_LOADER;await loader.load();const m=loader.getManifest();document.getElementById('calcCount').textContent=Number(m.publishedCount).toLocaleString('ko-KR');document.getElementById('searchCount').textContent=Number(m.searchVisibleCount).toLocaleString('ko-KR');document.getElementById('pageTitle').textContent='계산기 '+Number(m.publishedCount).toLocaleString('ko-KR')+'종 모음 · 배포 진단';}catch(e){failed++;document.getElementById('calcCount').textContent='오류';document.getElementById('searchCount').textContent='오류';}
+try{const report=await fetch('VALIDATION_REPORT_v6.1.2.json',{cache:'no-store'}).then(r=>r.json());document.getElementById('moduleCount').textContent=report.moduleFiles;document.getElementById('errorCount').textContent=report.errorCount;}catch(_){failed++;}
+for(const f of files){const row=document.createElement('div');row.className='row';try{const r=await fetch(f,{cache:'no-store'});if(!r.ok)failed++;row.innerHTML='<span class="'+(r.ok?'ok':'bad')+'">'+(r.ok?'정상':'오류')+'</span> · <code>'+f+'</code> · HTTP '+r.status;}catch(e){failed++;row.innerHTML='<span class="bad">오류</span> · <code>'+f+'</code> · '+e.message;}box.appendChild(row);}})();
+</script></body></html>

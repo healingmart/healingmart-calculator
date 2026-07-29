@@ -1,0 +1,117 @@
+{
+  "version": "6.1.2",
+  "total": 12,
+  "passed": 12,
+  "failed": 0,
+  "ok": true,
+  "results": [
+    {
+      "name": "D-day",
+      "handlerId": "dday",
+      "ok": true,
+      "result": {
+        "days": 10,
+        "label": "D-10"
+      }
+    },
+    {
+      "name": "만 나이",
+      "handlerId": "age",
+      "ok": true,
+      "result": {
+        "age": 25
+      }
+    },
+    {
+      "name": "날짜 차이",
+      "handlerId": "date-diff",
+      "ok": true,
+      "result": {
+        "days": 28,
+        "absolute": 28,
+        "inclusive": 29
+      }
+    },
+    {
+      "name": "대출 원리금균등",
+      "handlerId": "loan",
+      "ok": true,
+      "result": {
+        "first": 860664.2970708235,
+        "last": 860664.2970708235,
+        "total": 10327971.564849881,
+        "interest": 327971.56484988146
+      }
+    },
+    {
+      "name": "복리",
+      "handlerId": "compound",
+      "ok": true,
+      "result": {
+        "future": 1210000.0000000002,
+        "interest": 210000.00000000023
+      }
+    },
+    {
+      "name": "BMI",
+      "handlerId": "bmi",
+      "ok": true,
+      "result": {
+        "bmi": 22.49134948096886,
+        "category": "정상"
+      }
+    },
+    {
+      "name": "BMR",
+      "handlerId": "bmr",
+      "ok": true,
+      "result": {
+        "bmr": 1648.75
+      }
+    },
+    {
+      "name": "퍼센트",
+      "handlerId": "percent",
+      "ok": true,
+      "result": {
+        "value": 10,
+        "label": "전체값에서 차지하는 비율",
+        "unit": "%"
+      }
+    },
+    {
+      "name": "평균",
+      "handlerId": "average",
+      "ok": true,
+      "result": {
+        "count": 3,
+        "sum": 60,
+        "average": 20
+      }
+    },
+    {
+      "name": "평↔㎡",
+      "handlerId": "area",
+      "ok": true,
+      "result": {
+        "value": 3.3057851239669422
+      }
+    },
+    {
+      "name": "온도 변환",
+      "handlerId": "temperature",
+      "ok": true,
+      "result": {
+        "value": 32
+      }
+    },
+    {
+      "name": "급여 세전→세후",
+      "handlerId": "gross-to-net-custom",
+      "ok": true,
+      "result": {
+        "value": 2700000
+      }
+    }
+  ]
+}

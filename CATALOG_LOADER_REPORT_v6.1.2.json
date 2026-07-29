@@ -1,0 +1,119 @@
+{
+  "version": "6.1.2",
+  "ok": true,
+  "total": 22,
+  "passed": 22,
+  "failed": 0,
+  "results": [
+    {
+      "name": "loader_api_registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "duplicate_load_same_promise",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "manifest_loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "catalog_loaded",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "single_manifest_request",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295495\nhttps://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "single_catalog_request",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295495\nhttps://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "manifest_cache_buster",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295495"
+    },
+    {
+      "name": "catalog_hash_query",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "global_manifest_registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "global_catalog_registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ready_event_once",
+      "ok": true,
+      "detail": "1"
+    },
+    {
+      "name": "ready_event_payload",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "autoload_false_no_initial_request",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "autoload_false_api_registered",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "autoload_false_manual_load",
+      "ok": true,
+      "detail": "420"
+    },
+    {
+      "name": "autoload_false_manual_request_once",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295515\nhttps://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "explicit_base_manifest_path",
+      "ok": true,
+      "detail": "https://cdn.example.com/hm-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295525"
+    },
+    {
+      "name": "failure_returns_clear_error",
+      "ok": true,
+      "detail": "계산기 카탈로그 파일을 불러오지 못했습니다: https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "failure_clears_state",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "retry_after_failure",
+      "ok": true,
+      "detail": "420"
+    },
+    {
+      "name": "retry_reloads_manifest",
+      "ok": true,
+      "detail": "https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295530\nhttps://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd\nhttps://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-manifest.v1.js?t=1785340295531\nhttps://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js?v=be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"
+    },
+    {
+      "name": "error_event_emitted",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}
