@@ -1,0 +1,2 @@
+/* GENERATED FILE. DO NOT EDIT. Source: registry-v6.json */
+(function(w){"use strict";w.HM_CALCULATOR_CATALOG_MANIFEST=Object.freeze({"schemaVersion":1,"appVersion":"6.1.2","generatedAt":"2026-07-30T00:51:30.639+09:00","totalCount":420,"publishedCount":420,"searchVisibleCount":420,"baseUrl":"https://healingmart.github.io/healingmart-calculator/","catalogUrl":"https://healingmart.github.io/healingmart-calculator/dist/catalog/hm-calculators-search.v1.js","catalogHash":"be0f9d96cf914612760dcb913af60519993f6bfdea64a8ae0053f149c68a3fbd"});})(window);
